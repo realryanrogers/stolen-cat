@@ -5,6 +5,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: #989898;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -619,4 +620,8 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.logo {
+  padding-top: 50px;
 }

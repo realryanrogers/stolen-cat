@@ -23,6 +23,13 @@ const Image = () => {
           }
         }
       }
+      stolenCatLogoImage: file(relativePath: { eq: "logo.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
