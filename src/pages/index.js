@@ -21,7 +21,7 @@ export const query = graphql`
     stolenCatLogoImage: file(relativePath: { eq: "logo.png" }) {
       childImageSharp {
         fluid(maxWidth: 2000) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
